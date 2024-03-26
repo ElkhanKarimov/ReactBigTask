@@ -1,0 +1,126 @@
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white !important; /* Arka plan rengini beyaza ayarladık */
+    transition: top 0.3s;
+    z-index: 9999999;
+}
+
+.elxan{
+    position: absolute ;
+    background-color: transparent;
+    z-index: 999;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(112,112,111);
+
+}
+
+.main-part {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 110px;
+    height: 70px;
+}
+
+.navbar-text{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link{
+    font-size: 14px;
+}
+
+.navbar-icons{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar-brand{
+    font-size: 15px;
+    color: black;
+}
+
+.carousel-item{
+    min-width: 100%;
+    position: relative ;
+}
+
+.carousel-inner{
+    min-width: 100%;
+    height: 730px;
+}
+.slider-texts{
+    position: absolute ;
+    z-index: 99999 ;
+    top: 32%;
+    left: 26%;
+    width: 730px;
+}
+.texts{
+    font-size: 55px;
+    color: white;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore{
+    width: 152px;
+    height: 48px;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    padding: 10px 30px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.explore:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+.colorlib{
+    color: rgb(15,183,141);
+}
+.count-box {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: 10px;
+    position: absolute;
+    top: 16px;
+    right: 182px;
+    font-weight: 400;
+}
+
+

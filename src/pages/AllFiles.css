@@ -1,0 +1,9 @@
+.practice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    background-color: rgb(45,45,52);
+    font-size: 50px;
+    color: white;
+}
